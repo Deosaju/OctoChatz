@@ -11,7 +11,7 @@ import search from './search.svg';
 import menu from './menu.svg';
 import money from './money.svg';
 import loader from './loader.svg';
-import octoChat from './octoChat.png';
+import octoChat from './OctoChat.png';
 import people from './People.svg';
 
 
