@@ -50,6 +50,7 @@ function index() {
     const { code } = qs.parseUrl(window.location.href).query;
     if (code) {
       try {
+        console.log("Code", code);
         const response = await axios.post(`/api/login`, { code }); // This is the server
         console.log("Access Token", response.data);
         setAccessToken(response.data);

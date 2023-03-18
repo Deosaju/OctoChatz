@@ -22,11 +22,11 @@ export default async function handler(req, res) {
 
 async function exchangeCodeForAccessToken(code) {
     const GITHUB_ACCESS_TOKEN_URL = 'https://github.com/login/oauth/access_token';
-    const { REDIRECT_URL, CLIENT_ID, CLIENT_SECRET } = process.env;
     const params = {
         code,
-        client_id: CLIENT_ID,
-        client_secret: CLIENT_SECRET,
+        redirect_uri: process.env.REDIRECT_URI,
+        client_id: process.env.CLIENT_ID,
+        client_secret: process.env.CLIENT_SECRET,
     };
 
     const { data } = await axios.post(GITHUB_ACCESS_TOKEN_URL, params, {
