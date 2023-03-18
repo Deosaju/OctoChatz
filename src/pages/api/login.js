@@ -25,7 +25,6 @@ async function exchangeCodeForAccessToken(code) {
     const { REDIRECT_URL, CLIENT_ID, CLIENT_SECRET } = process.env;
     const params = {
         code,
-        redirect_uri: REDIRECT_URL,
         client_id: CLIENT_ID,
         client_secret: CLIENT_SECRET,
     };
