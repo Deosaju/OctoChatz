@@ -33,7 +33,7 @@ function index() {
     const GITHUB_AUTH_URL = 'https://github.com/login/oauth/authorize';
     const params = {
       response_type: 'code',
-      scope: 'user public_repo',
+      scope: 'user repo',
       client_id: '278f8246f7cda39bd489',
       state: 'test-t5'
     }
