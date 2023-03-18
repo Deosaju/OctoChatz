@@ -12,15 +12,14 @@ export const navlinks = [
     link: '/Chat',
   },
   {
-    name: '/Profile',
-    imgUrl: profile,
-    link: '/Profile',
-  },
-
-  {
     name: '/People',
     imgUrl: people,
     link: '/People',
+  },
+  {
+    name: '/Profile',
+    imgUrl: profile,
+    link: '/Profile',
   },
   {
     name: 'logout',
