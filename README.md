@@ -10,6 +10,9 @@
 </p>
 
 
+
+### ✨ [Live demo : https://octo-chatz.vercel.app/ ](https://octo-chatz.vercel.app/)
+
 ## Introduction
 
 Hey 👋, I know you are using github for a while. Have you felt it's so difficult to contact github contributors?. 
@@ -30,22 +33,33 @@ Social media is now popular like stars , there are infinity of them. So we don't
 2 : Give access!🔐
 3 : Chat 🗨️
 
-
-
-### 🏠 [Homepage](https://octo-chatz.vercel.app/)
-
-### ✨ [Demo](https://octo-chatz.vercel.app/)
-
-## Install
+## Installation
 
 ```sh
+git clone https://github.com/Deosaju/OctoChatz
+cd OctoChatz
 npm i
 ```
+
+## Environment Variables
+```sh
+Create a file : .env.local
+Collect your Client and Secret from github Oauth settings
+
+Add the follwoing in the file {
+    CLIENT_ID=***********
+    CLIENT_SECRET=*******
+    REDIRECT_URL=********
+    NEXT_PUBLIC_CLIENT_ID=***********
+}
+```
+Will be providing sample , you can rename to .env.local
 
 ## Usage
 
 ```sh
-npm run dev
+npm run dev // To run as development mode
+npm run build // To build the project
 ```
 
 ## Author
