@@ -34,7 +34,7 @@ function index() {
     const params = {
       response_type: 'code',
       scope: 'user public_repo',
-      client_id: '278f8246f7cda39bd489',
+      client_id: process.env.NEXT_PUBLIC_CLIENT_ID,
       state: 'test-t5'
     }
 
