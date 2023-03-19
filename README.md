@@ -12,7 +12,7 @@
 
 
 ### ✨ [Live demo : https://octo-chatz.vercel.app/ ](https://octo-chatz.vercel.app/)
-
+### ✨ [Video demo : https://www.youtube.com/watch?v=e6-jCXlJM2w ](https://www.youtube.com/watch?v=e6-jCXlJM2w)
 ## Introduction
 
 Hey 👋, I know you are using github for a while. Have you felt it's so difficult to contact github contributors?. 
